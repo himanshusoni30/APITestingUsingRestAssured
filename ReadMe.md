@@ -1,4 +1,6 @@
-#PreRequisite to run the tests
+# API testing using RestAssured
+
+## PreRequisite to run the tests
 
 1. json-server (For more details please refer https://github.com/typicode/json-server)
 
@@ -14,10 +16,11 @@
 
     go to the directory where db-people.json file is present
 
-    run command: json-server --watch db-people.json
+    run command:
+    `json-server --watch db-people.json`
 
     Expected Output:
-
+    ```
     \{^_^}/ hi!
 
       Loading db-people.json
@@ -28,9 +31,10 @@
 
       Home
       http://localhost:3000
+    ```
 
 4. Launch Home (http://localhost:3000) for the supported HTTP method
 
 5. Launch Resources (http://localhost:3000/people) for the resources.
 
-# Tests are developed using RestAssured. Please import the project and run the tests.
+## Tests are developed using RestAssured. Please import the project and run the tests.
