@@ -13,9 +13,11 @@
 3. start json server using db-people json file
 
     go to the directory where db-people.json file is present
+
     run command: json-server --watch db-people.json
 
-    <output>
+    Expected Output:
+
     \{^_^}/ hi!
 
       Loading db-people.json
