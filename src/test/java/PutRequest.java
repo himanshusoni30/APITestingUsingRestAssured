@@ -8,7 +8,7 @@ import static org.hamcrest.Matchers.equalTo;
 public class PutRequest {
     public static void main(String[] args) {
         RestAssured.baseURI = "http://localhost:3000";//"http://httpbin.org"
-        System.out.println("******** Adding new person into people list. ********");
+//        System.out.println("******** Adding new person into people list. ********");
         Response resp = given().contentType("application/json").body("{\n" +
                 "  \"name\": \"Bjorn Ironside\",\n" +
                 "  \"phone\": \"(840) 568-2855\",\n" +
